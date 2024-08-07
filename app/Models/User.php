@@ -44,8 +44,11 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+<<<<<<< HEAD
 
     public function User (){
         return $this->belongsTo('Transaksi');
     }
+=======
+>>>>>>> d74df34624b5d304a9811802eeb9b7798d6eb580
 }
